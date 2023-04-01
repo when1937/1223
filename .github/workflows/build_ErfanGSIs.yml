@@ -33,6 +33,7 @@ jobs:
             sudo apt-get install python3.8
             sudo unlink /usr/bin/python
             sudo ln -s /usr/bin/python3.8 /usr/bin/python
+            pip3 install django-mdeditor==0.1.13
            
        - name: Initialization environment
          run: |
